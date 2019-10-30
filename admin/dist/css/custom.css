@@ -1,0 +1,19 @@
+thead{
+	  background-color:rgba(154, 150, 144, 0.83)
+  }
+  .form-control{
+	      border-radius: 5px;
+  }
+  .edit_button_css
+  {
+	  cursor:pointer;
+  }
+  .modal-dialog{
+	  width:500px;
+  }
+  .center_txt_align{
+	  text-align:center;
+  }
+  .right_txt_align{
+	  text-align:right;
+  }

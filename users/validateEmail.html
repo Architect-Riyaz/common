@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Email</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div>
+        <div class="header-dark" style="background-image:url(&quot;assets/img/ace-card-game-cards-297507.jpg&quot;);width:100%;">
+            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Teenpatti</h3>
+                        <p>We are the leading Teenpatti game development companny. We have the best team of &nbsp;game developers who have the best skills in developing the rich experience game for different kinds of the customers in the world. We make use
+                            of the best sources for developing the best game like the teen patti, rummy and much more, as per the needs and customization of the clients. Our main goal is to offer the best in cards games and best UI experience which are
+                            required for running the game and for large user-base.<br></p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Teenpatti &nbsp;© 2017</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+ function processForm()
+  { 
+    var parameters = location.search.substring(1).split("&");
+    var temp = parameters[0].split("=");
+    l = unescape(temp[1]);
+ 
+    while(temp[1] == "" || temp[0] != 'signature'){
+    	alert('Token Expired');
+    }
+    
+    console.log(l);
+  }
+ processForm();
+</script>
+</body>
+
+</html>
